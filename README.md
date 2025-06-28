@@ -58,6 +58,17 @@ You can **just fork or clone** this repository and use it as is.
 
 ✨ It just works. ✨
 
+### Default Login Credentials
+
+Once you have the project running (see [development.md](./development.md)), you can log in with:
+
+- **Email**: `admin@example.com`
+- **Password**: `changethis`
+
+These credentials are defined in the `.env` file and can be changed by modifying:
+- `FIRST_SUPERUSER=admin@example.com`
+- `FIRST_SUPERUSER_PASSWORD=changethis`
+
 ### How to Use a Private Repository
 
 If you want to have a private repository, GitHub won't allow you to simply fork it as it doesn't allow changing the visibility of forks.
